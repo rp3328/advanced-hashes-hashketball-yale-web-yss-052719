@@ -94,5 +94,5 @@ def big_shoe_rebounds
 
   game_hash.each do |team, data|
     
-  
+
 end

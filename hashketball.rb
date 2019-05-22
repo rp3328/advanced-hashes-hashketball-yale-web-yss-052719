@@ -65,4 +65,15 @@ def team_names
 end
 
 def player_numbers(name)
+  arr = []
+
+  game_hash.each do |team, data|
+    if data[:team_name] == name
+      data[:players].each {
+        |pname, val| arr << val[:number]
+      }
+    end
+  end
+  arr
+end
   

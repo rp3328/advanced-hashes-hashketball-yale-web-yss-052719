@@ -138,4 +138,3 @@ def winning_team
     "tie"
   end
 end
-    

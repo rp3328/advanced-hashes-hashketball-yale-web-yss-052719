@@ -138,3 +138,5 @@ def winning_team
     "tie"
   end
 end
+
+def player_with_longest_name

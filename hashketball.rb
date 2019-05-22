@@ -32,10 +32,12 @@ end
 
 def num_points_scored(name)
   game_hash.each do |team, data|
-    if data[:team_name] == name
-      return data[:colors]
+    data[:players].each do |pname,  pdata|
+      if pname == name
+        return pdata[:points]
+      end
+    end
   end
-end
 end
 
 def shoe_size(name)
@@ -50,10 +52,9 @@ end
 
 def team_colors(name)
   game_hash.each do |team, data|
-    data[:players].each do |pname,  pdata|
-      if pname == name
-        return pdata[:points]
-      end
+    if data[:team_name] == name
+      return data[:colors]
     end
   end
+    
 end

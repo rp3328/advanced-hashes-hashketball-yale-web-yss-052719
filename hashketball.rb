@@ -97,4 +97,7 @@ def big_shoe_rebounds
       if val[:shoe] > shoe
         rebound = val[:rebounds]
         shoe = val[:shoe]
+      end
+    end
+  end
 end

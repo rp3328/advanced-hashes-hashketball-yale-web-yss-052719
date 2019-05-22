@@ -24,3 +24,11 @@ def game_hash
       }
   }
 end
+
+def home_team_name
+  
+
+
+
+
+

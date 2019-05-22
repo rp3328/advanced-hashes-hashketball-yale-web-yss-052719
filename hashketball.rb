@@ -63,3 +63,7 @@ def team_names
      data[:team_name]
   end
 end
+
+def player_numbers(name)
+  
+

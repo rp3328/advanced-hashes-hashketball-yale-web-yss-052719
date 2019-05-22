@@ -60,6 +60,6 @@ end
 
 def team_names
   game_hash.collect do |team, data|
-    return data[:team_name]
-    end
+     data[:team_name]
+  end
 end

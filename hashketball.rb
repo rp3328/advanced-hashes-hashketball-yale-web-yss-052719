@@ -76,4 +76,3 @@ def player_numbers(name)
   end
   arr
 end
-  

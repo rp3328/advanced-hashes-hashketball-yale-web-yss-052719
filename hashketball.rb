@@ -105,8 +105,9 @@ end
 
 def most_points_scored
   points = 0
+  bplayer = ""
 
   game_hash.each do |team, data|
     data[:players].each do |pname, val|
       if val[:points] > points
-        
+        points = val[:points]

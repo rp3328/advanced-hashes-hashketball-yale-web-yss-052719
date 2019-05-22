@@ -11,7 +11,7 @@ def game_hash
         "Mason Plumlee" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
         "Jason Terry" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
         }
-      
+
       }
     :away => {:team_name => "",
       :colors => [],

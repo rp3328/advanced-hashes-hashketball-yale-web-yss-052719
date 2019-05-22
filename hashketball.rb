@@ -147,4 +147,9 @@ def player_with_longest_name
     data[:players].each do |pname, val|
       if pname.length > long
         name = pname
-        
+        long = pname.length
+      end
+    end
+  end
+  
+      

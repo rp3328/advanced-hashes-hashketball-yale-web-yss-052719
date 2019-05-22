@@ -17,10 +17,10 @@ def game_hash
       :colors => [Turquoise, Purple],
       :players => {
         "Jeff Adrien" => {:number => 4, :shoe => 18, :points => 10, :rebounds => 1, :assists => 1, :steals => 2, :blocks => 7, :slam_dunks => 2},
-        "Bismack Biyombo" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
-        "DeSagna Diop" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
-        "Ben Gordon" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
-        "Brendan Haywood" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
+        "Bismack Biyombo" => {:number => 4, :shoe => 18, :points => 10, :rebounds => 1, :assists => 1, :steals => 2, :blocks => 7, :slam_dunks => 2},
+        "DeSagna Diop" => {:number => 4, :shoe => 18, :points => 10, :rebounds => 1, :assists => 1, :steals => 2, :blocks => 7, :slam_dunks => 2},
+        "Ben Gordon" => {:number => 4, :shoe => 18, :points => 10, :rebounds => 1, :assists => 1, :steals => 2, :blocks => 7, :slam_dunks => 2},
+        "Brendan Haywood" => {:number => 4, :shoe => 18, :points => 10, :rebounds => 1, :assists => 1, :steals => 2, :blocks => 7, :slam_dunks => 2}
 
         }
       }

@@ -60,7 +60,7 @@ end
 
 def team_names(name)
   game_hash.each do |team, data|
-    returndata[:team_name]
+    return data[:team_name]
     end
-  
+
 end

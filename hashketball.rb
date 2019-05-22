@@ -111,3 +111,8 @@ def most_points_scored
     data[:players].each do |pname, val|
       if val[:points] > points
         points = val[:points]
+        bplayer = pname
+      end
+    end
+end
+end

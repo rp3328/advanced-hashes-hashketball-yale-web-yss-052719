@@ -29,3 +29,7 @@ end
 def home_team_name
   game_hash[:home][:team_name]
 end
+
+def num_points_scored(name)
+  
+end

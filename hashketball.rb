@@ -129,3 +129,13 @@ def winning_team
   game_hash[:away][:players].each do |pname, val|
     away += val[:points]
   end
+
+  if home > away
+    game_hash[:home][:team_name]
+  elsif away > home
+    game_hash[:away][:team_name]
+  else
+    "tie"
+  end
+end
+    

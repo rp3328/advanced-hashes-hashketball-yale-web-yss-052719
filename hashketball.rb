@@ -32,5 +32,10 @@ end
 
 def num_points_scored(name)
   game_hash.each do |team, data|
-    
+    data[:players].each do |pname,  pdata|
+      if pname == name
+        return pdata[:points]
+      end
+    end
+  end
 end

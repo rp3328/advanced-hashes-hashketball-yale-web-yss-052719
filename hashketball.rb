@@ -16,7 +16,12 @@ def game_hash
     :away => {:team_name => "Charlotte Hornets",
       :colors => [Turquoise, Purple],
       :players => {
-        "" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks}
+        "Jeff Adrien" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks}
+        "Bismack Biyombo" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
+        "DeSagna Diop" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
+        "Ben Gordon" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
+        "Brendan Haywood" => {:number, :shoe, :points, :rebounds, :assists, :steals, :blocks, :slam_dunks},
+
         }
       }
   }

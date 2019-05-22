@@ -117,3 +117,15 @@ def most_points_scored
   end
   bplayer
 end
+
+def winning_team
+  home = 0
+  away = 0
+
+  game_hash[:home][:players].each do |pname, val|
+    home += val[:points]
+  end
+
+  game_hash[:away][:players].each do |pname, val|
+    away += val[:points]
+  end

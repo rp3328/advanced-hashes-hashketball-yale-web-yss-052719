@@ -27,8 +27,3 @@ end
 
 def home_team_name
   
-
-
-
-
-
